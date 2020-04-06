@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mconfigure_tld"
+        android:orderInCategory="100"
+        android:title="configure TLD"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mconfigure_fsnp"
+        android:orderInCategory="100"
+        android:title="fsnp upgrade"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mreconnect_ble_readers"
+        android:orderInCategory="100"
+        android:title="Reconnect BLR Readers"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mreboot_reader"
+        android:orderInCategory="100"
+        android:title="Reboot BLE Readers"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mofline"
+        android:orderInCategory="104"
+        android:icon="@drawable/img_offline"
+        android:title="Offline"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/monline"
+        android:orderInCategory="104"
+        android:icon="@drawable/img_online"
+        android:title="Online"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/mclose"
+        android:orderInCategory="104"
+        android:icon="@drawable/close"
+        android:title="Close"
+        app:showAsAction="always"/>
+
+</menu>
